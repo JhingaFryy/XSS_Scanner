@@ -15,12 +15,12 @@ pip install requests
 
 ## Usage
 ```bash
-python xss_auto_exploiter.py -u <TARGET_URL> -p <PARAM1> <PARAM2>
+python exploit.py -u <TARGET_URL> -p <PARAM1> <PARAM2>
 ```
 
 ### Example
 ```bash
-python xss_auto_exploiter.py -u "http://example.com/search" -p q
+python exploit.py -u "http://example.com/search" -p q
 ```
 
 ## License
